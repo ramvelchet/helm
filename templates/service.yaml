@@ -9,6 +9,6 @@ spec:
     project: roboshop
   ports:
     - protocol: TCP
-      port: {{ .Values.service.servicePort }} # service port
-      targetPort: 80 # container port
+      port: {{ .Values.service.servicePort }} 
+      targetPort: 80 
       nodePort: 30007 
