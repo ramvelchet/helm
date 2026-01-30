@@ -1,5 +1,5 @@
 deployment:
-  replicas: 4
+  replicas: 5
   imageVersion: stable-bookworm-perl
 service:
   type: LoadBalancer
